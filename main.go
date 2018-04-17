@@ -48,7 +48,7 @@ func main(){
 	startQsort:=time.Now()
 	quickSort.QuickSort(num4,0,len(num4)-1)
 	elapsed4:=time.Since(startQsort)
-	fmt.Println("time for Merge sort",elapsed4)
+	fmt.Println("try timefor Merge sort",elapsed4)
 
 	fmt.Println(numArray)
 
